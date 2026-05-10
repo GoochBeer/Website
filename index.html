@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gooch Beer | Crafted with Character</title>
-    <meta name="description" content="Gooch Beer is a premium peach-forward craft lager with bold character." />
+    <meta
+      name="description"
+      content="Gooch Beer is a premium craft lager brewed for bold nights, rich flavor, and unforgettable moments."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav container">
-        <a href="#home" class="brand"><img src="assets/logo.svg" alt="Gooch" /></a>
+        <a href="#home" class="brand">GOOCH</a>
         <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
         <ul class="nav-links">
           <li><a href="#story">Story</a></li>
@@ -25,13 +31,11 @@
 
     <main>
       <section id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="container hero-content">
-          <img class="hero-logo" src="assets/logo-tagline.svg" alt="Gooch — Where Peach Meets Lager" />
-          <p class="hero-subtitle">Premium craft beer with unmistakable peach-forward character.</p>
-          <div class="hero-monkeys">
-            <img src="assets/monkey-icon.svg" alt="Gooch monkey icon" />
-            <img src="assets/monkey-icon.svg" alt="Gooch monkey icon" />
-          </div>
+          <p class="eyebrow">Premium Craft Beer</p>
+          <h1>Gooch</h1>
+          <p class="hero-subtitle">Brewed for bold taste. Crafted for modern nights.</p>
           <a href="#products" class="btn">Explore Our Lineup</a>
         </div>
       </section>
@@ -40,11 +44,12 @@
         <div class="container story-grid">
           <div>
             <p class="eyebrow">Our Brand Story</p>
-            <h2>Where Peach Meets Lager</h2>
+            <h2>Where Tradition Meets Edge</h2>
           </div>
           <p>
-            Gooch blends easy-drinking lager tradition with playful peach attitude. Every detail in our identity—from the
-            flowing background to the iconic monkey mark—captures the same balance of premium craft and bold personality.
+            Gooch began as a small-batch obsession to create a beer that balances crisp drinkability with rich character.
+            Inspired by heritage brewing methods and elevated with modern techniques, every pour is made for people
+            who appreciate quality without compromise.
           </p>
         </div>
       </section>
@@ -54,9 +59,21 @@
           <p class="eyebrow">Product Collection</p>
           <h2>Signature Brews</h2>
           <div class="product-grid">
-            <article class="card"><h3>Gooch Gold Lager</h3><p>Clean and crisp with a peach-lifted finish.</p><span>5.0% ABV</span></article>
-            <article class="card"><h3>Gooch Night IPA</h3><p>Tropical hops with bright fruit aromatics.</p><span>6.5% ABV</span></article>
-            <article class="card"><h3>Gooch Velvet Stout</h3><p>Roasted cocoa depth with smooth body.</p><span>7.2% ABV</span></article>
+            <article class="card">
+              <h3>Gooch Gold Lager</h3>
+              <p>Clean, crisp, and smooth with subtle malt sweetness and a bright finish.</p>
+              <span>5.0% ABV</span>
+            </article>
+            <article class="card">
+              <h3>Gooch Night IPA</h3>
+              <p>Bold citrus aroma with layered tropical hops and balanced bitterness.</p>
+              <span>6.5% ABV</span>
+            </article>
+            <article class="card">
+              <h3>Gooch Velvet Stout</h3>
+              <p>Dark roasted notes of cocoa and coffee with a rich, silky body.</p>
+              <span>7.2% ABV</span>
+            </article>
           </div>
         </div>
       </section>
@@ -64,15 +81,23 @@
       <section id="contact" class="section">
         <div class="container contact-grid">
           <div>
-            <img class="icon-large" src="assets/monkey-icon.svg" alt="Gooch brand monkey" />
             <p class="eyebrow">Get in Touch</p>
             <h2>Partner, stock, or say hello.</h2>
             <p>Reach out and we’ll get back to you soon.</p>
           </div>
           <form class="contact-form" id="contactForm">
-            <label>Name<input type="text" name="name" required /></label>
-            <label>Email<input type="email" name="email" required /></label>
-            <label>Message<textarea name="message" rows="4" required></textarea></label>
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required></textarea>
+            </label>
             <button type="submit" class="btn">Send Message</button>
             <p id="formMessage" class="form-message" aria-live="polite"></p>
           </form>
@@ -80,7 +105,12 @@
       </section>
     </main>
 
-    <footer class="site-footer"><div class="container footer-content"><p>© <span id="year"></span> Gooch Beer. Drink responsibly.</p></div></footer>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Gooch Beer. Drink responsibly.</p>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
