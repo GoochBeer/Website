@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="2000" height="700" viewBox="0 0 2000 700" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="none"/>
-  <text x="50%" y="58%"
-        dominant-baseline="middle"
-        text-anchor="middle"
-        font-family="Arial Black, Helvetica, sans-serif"
-        font-size="420"
-        font-weight="900"
-        letter-spacing="5"
-        fill="#FFFFFF">
-    GOOCH
-  </text>
+<svg
+  width="900"
+  height="260"
+  viewBox="0 0 900 260"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="Gooch logo"
+>
+  <rect width="900" height="260" fill="none" />
+  <g overflow="visible">
+    <text
+      x="0"
+      y="205"
+      font-family="Arial Black, Impact, Haettenschweiler, sans-serif"
+      font-weight="900"
+      font-size="220"
+      letter-spacing="6"
+      fill="#FFFFFF"
+    >
+      GOOCH
+    </text>
+  </g>
 </svg>
