@@ -3,7 +3,7 @@
 body{font-family:"Montserrat", "Inter", sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
 .container{width:min(1120px,92%);margin-inline:auto}
 .site-header{position:fixed;inset:0 0 auto;z-index:100;background:rgba(31,17,11,.82);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.15)}
-.nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}.brand{display:flex;align-items:center;gap:0}.brand img{height:44px;width:auto;display:block}.brand-monkey{height:52px}.brand,.hero-logo{font-family:"Opinion Pro Extra Condensed Extra Bold","Arial Narrow",sans-serif}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:.9rem 0}.brand{display:flex;align-items:center;gap:0}.brand img{height:44px;width:auto;display:block}.brand-monkey{height:52px}.brand img + img{margin-left:-8px}.brand,.hero-logo{font-family:"Opinion Pro Extra Condensed Extra Bold","Arial Narrow",sans-serif}
 .nav-links{list-style:none;display:flex;gap:1.4rem}.nav-links a{color:var(--muted);text-decoration:none;font-weight:600}.nav-links a:hover{color:#fff}
 .menu-toggle{display:none;background:0;border:0;color:#fff;font-size:1.35rem}
 .hero{min-height:100vh;padding:7rem 0 4rem;display:grid;place-items:center;background-image:linear-gradient(rgba(31,17,11,.62),rgba(31,17,11,.8)),url("assets/background-final-embedded.svg");background-size:cover;background-position:center}
